@@ -1,0 +1,9 @@
+export { default as IconAccount } from './icons/account';
+export { default as IconArrowLeft } from './icons/arrow-left';
+export { default as IconCart } from './icons/cart';
+export { default as IconCompare } from './icons/compare';
+export { default as IconEmail } from './icons/email';
+export { default as IconListBullets } from './icons/list-bullets';
+export { default as IconStar } from './icons/star';
+export { default as IconVoucher } from './icons/voucher';
+export { default as IconWishlist } from './icons/wishlist';
