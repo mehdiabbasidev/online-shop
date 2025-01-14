@@ -92,3 +92,5 @@ export const Input: React.FC<InputProps> = forwardRef<
     );
   }
 );
+
+Input.displayName = "Input";
