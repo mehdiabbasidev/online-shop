@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fa" dir="rtl" className={`${iranSans.variable} ${inter.variable}`}>
+    <html lang="fa"  className={`${iranSans.variable} ${inter.variable}`}>
       <body className="flex flex-col min-h-screen">
           {children}
       </body>

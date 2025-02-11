@@ -1,4 +1,4 @@
-import { BaseIcon } from "../base_icon";
+import {BaseIcon} from "../base_icon";
 import { SVGAttributes } from "react";
 
  export default function SvgIcon(props:SVGAttributes<SVGSVGElement>) {

@@ -1,3 +1,5 @@
+import { Footer } from "../_components/footer";
+import { Header } from "../_components/header";
 
 export default function MainLayout({
     children,
@@ -6,9 +8,9 @@ export default function MainLayout({
   }>) {
     return (
      <>
-        <header className="h-24 bg-gray-shop-e4 flex justify-center items-center">Header</header>
+        <Header/>
         <main className="flex-1">{children}</main>
-        <footer className="h-24 bg-gray-shop-e4 flex justify-center items-center">Footer</footer>
+        {/* <Footer/> */}
      </>
     );
   }
